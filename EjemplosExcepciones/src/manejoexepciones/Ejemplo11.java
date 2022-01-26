@@ -33,7 +33,7 @@ public class Ejemplo11 {
                 }
                 int resultado = valor1 / valor2;
                 System.out.printf("Resultado %s\n", resultado);
-                
+
             } catch (ArithmeticException e) {
                 System.out.printf("(ArithmeticException) Ocurrió una "
                         + "excepción %s\n", e);
@@ -43,16 +43,15 @@ public class Ejemplo11 {
             } catch (Exception e) {
                 System.out.printf("Ocurrió una excepción %s\n", e);
             }
-            entrada.nextLine(); 
+            entrada.nextLine();
             System.out.println("Desea volver a ingresar los valores, ingrese "
                     + "la palabra: si");
             valor = entrada.nextLine(); // no
-            
+
             if (!valor.equals("si")) { //  Verdadero
                 bandera = false;
             }
-            
-            
+
         }
     }
 }

@@ -14,10 +14,11 @@ Traceback (most recent call last):
 NameError: name 'apellido' is not defined
 """
 print("Ingreso de datos de empleado\n")
-
-nombre = input("Ingreso su nombre :\n")
-apellido = input("Ingreso su apellido :\t")
-
-print("Los datos \ningresados son \n%s \n%s\n" % (nombre, apellido))
-
+contador = 1
+while contador <= 5:
+    nombre = input("Ingreso su nombre : \n")
+    apellido = input("Ingreso su apellido :\t")
+    print("Los datos \ningresados son \n%s \n%s\n" % (nombre, apellido))
+    contador = contador + 1
+print ("Proceso terminado")
 
