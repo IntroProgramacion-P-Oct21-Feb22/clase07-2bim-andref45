@@ -36,9 +36,9 @@ except TypeError as ex:
     print(ex)
     print(type(ex))
 except Exception as ex:
-     print("Algo paso en el programa (Exeption)\n")
+     print("Algo paso en el programa (Exception)\n")
      print(ex)
      print(type(ex))
-    
+print("Fin del proceso")
 
 

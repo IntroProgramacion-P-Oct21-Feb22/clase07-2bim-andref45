@@ -28,11 +28,15 @@ try:
     print("Los datos ingresados son: \nNombre: %s\nNota1: %d \nNota2: %d\
             \nPromedio: %f" % (nombre, int(nota1), int(nota2), promedio))
 except TypeError as ex:
-    print("Algo paso en el programa (TypeError)\n")
+    print("Algo pasó en el programa (TypeError)\n")
+    print(ex)
+    print(type(ex))
+except ZeroDivisionError as ex:
+    print("Algo pasó en el programa (ZeroDivisionError)\n")
     print(ex)
     print(type(ex))
 except Exception as ex:
-    print("Algo paso en el programa (Exeption)\n")
+    print("Algo pasó en el programa (Exeption)\n")
     print(ex)
     print(type(ex))
     
